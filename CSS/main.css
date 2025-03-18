@@ -1,0 +1,260 @@
+/* Atalho */
+
+.link-shorthand {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 0; 
+    margin: 0; 
+    color: #101010;
+}
+
+.link-shorthand ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin: 18px 240px; 
+    gap: 5px; 
+}
+
+.link-shorthand ul li a {
+    text-decoration: underline; 
+    font-size: 14px; 
+    color: #000000; 
+}
+
+
+/* Aside Midia & Anúncio */
+.social-media {
+    position: fixed;
+    top: 290px;
+    display: flex; 
+    flex-direction: column; 
+    margin: 0 145px; 
+    padding: 0; 
+    z-index: 1000;
+}
+
+.social-media ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.social-media ul li {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.social-media ul li a img {
+    width: 32px;
+    height: 32px; 
+}
+
+
+/* Estilização do cabeçalho */
+.article-content header {
+    margin-left: 238px;
+}
+
+.article-content header .edition-span {
+    color: #1D8108; 
+    font-size: 18px;
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 16px;
+}
+
+.article-content header h1 {
+    font: normal normal bold 40px/52px Poppins;
+    color: #101010;
+    margin-right: 700px;
+}
+
+.article-content header h2 {
+    font: normal normal normal 20px/44px Poppins;
+    color: #101010;
+    margin-right: 600px;
+}
+
+.article-content header p {
+    font: normal normal normal 15px/44px Poppins;
+
+}
+
+
+.divisor-3 {
+    height: 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #DDDDDD;
+    margin-right: 850px;
+    margin-bottom: 24px;
+}
+
+/* Botôes de Artigo */
+
+.play-background {
+    top: 612px;
+    left: 145px;
+    width: 236px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #0000001A;
+    border: 1px solid #EFEFEF;
+    border-radius: 31px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-left: 1px;
+}
+
+.play-background button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 31px;
+    height: 38px;
+    width: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.play-background span {
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 22px;
+}
+
+.google-background {
+    top: 612px;
+    left: 395px;
+    width: 309px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #0000001A;
+    border: 1px solid #508EF5;
+    border-radius: 31px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+
+}
+
+.google-background img {
+   margin-right: 10px;
+   margin-top: 14px 0;
+}
+
+.google-background span {
+    
+    align-items: left;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: -5px;
+}
+
+.infos-article ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    gap: 14px; 
+}
+
+.infos-article ul li {
+    display: flex; 
+    align-items: center; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.infos-article ul li a {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+/* Advertisement */
+.advertisement {
+    position: absolute;
+    top: 334px;
+    right: 250px;
+    display: flex;
+    flex-direction: column; 
+    gap: 12px; 
+    padding: 10px; 
+}
+
+.advertisement ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.advertisement ul li {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.advertisement ul li img {
+    width: 300px;
+    padding-bottom: 23px;
+}
+
+
+.latest-news {
+    position:absolute;
+    top: 1242px;
+    right: 1px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    span{
+        font-weight: bold;
+        font-size: 32px;
+    }
+   
+
+}
+ .latest-news ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+
+ }
+
+
+
+.teste p{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    
+    width: 10px;
+    margin-left: 130px;
+}
+.teste img {
+    left: 1045px;
+    width: 106px;
+    height: 101px;
+    border-radius: 12px;
+    opacity: 1;
+    margin-right: 450px;
+}
+
+
+

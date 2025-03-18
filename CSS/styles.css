@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Poppins_Regular';
+    src: url('../assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins_Bold';
+    src: url('../assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins_Regular', Arial, sans-serif;
+}
+
+/* Header do Menu */
+
+.header-mundiware {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5px;
+}
+
+.header-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header-button img {
+    top: 25px;
+    left: 145px;
+    width: 90px;
+    height: 44px;
+}
+
+.header-logo {
+    width: 230px;
+    height: 56px;
+    margin-left: 316px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;    
+    background: #E9E9E9;
+    border-radius: 22px;
+    width: 220px;
+    height: 43px;
+}
+
+.input-container input {
+    text-align: left;
+    letter-spacing: 0px;
+    border: none;
+    background: none;
+    outline: none;
+    gap: 91px;
+}
+
+.input::placeholder {
+    font-weight: bold;
+    padding: 22px 10px;
+    color: #000000;
+}
+
+.input-container img {
+    width: 18px;
+    left: 1307px;
+    height: 18px;
+}
+
+/* Divisor do Menu */
+
+.divisor {
+    width: calc(100% + 40px);
+    height: 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #DDDDDD;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    box-sizing: border-box;
+    margin-left: -20px;
+}
+
+
+/* Navegação do Menu */
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 180px;
+    gap: 6px;
+}
+
+
+/* Estilização das transições de links */
+
+.nav-header ul li a {
+    text-decoration: none;
+    background-repeat: no-repeat;
+    border-radius: 90px;
+    font-size: 16px;
+    color: #2E2E2E;
+    border-radius: 90px;
+    display: block;
+    box-sizing: border-box; 
+    padding: 5px 15px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-header ul li a:hover {
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.green-style-1:hover a {
+    background-color: #2A6F48;
+}
+
+.purple-style-1:hover a {
+    background-color: #6A1B9A;
+}
+
+.purple-style-2:hover a{
+    background-color: #9B28B8;
+}
+
+.green-style-2.active:hover a,
+.green-style-2.active a {
+    background-color: #1D8108; 
+    color: #ffffff; 
+}
+
+.red-style:hover a {
+    background-color: #AD0202;
+}
+
+.brown-style:hover a {
+    background-color: #6E3404;
+}
+
+.blue-style-1:hover a {
+    background-color: #047885;
+}
+
+.orange-style:hover a {
+    background-color: #BD5B07;
+}
+
+.blue-style-2:hover a {
+    background-color: #193B4F;
+}
+
+.divisor {
+    width: calc(100% + 40px);
+    height: 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #DDDDDD;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-left: -20px;
+}
+
+/* Subheader */
+.subheader-nav ul {
+    display: flex; 
+    list-style: none; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-left: 212px;
+    
+
+}
+
+.subheader-nav ul li a {
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 20px;
+    color: #2E2E2E;
+    display: flex; 
+    align-items: center; 
+    gap: 14px;
+    
+
+}
+
+.subheader-nav ul li a img {
+    width: 75px; 
+    height: 75px; 
+    border-radius: 12px; 
+    
+    
+}
+
+.subheader-nav ul li a p {
+    width: 216px;
+    height: 63px;
+    
+}
+
+.fade-out {
+    position: absolute;
+    width: 216px;
+    height: 63px;
+    right: 25px;
+    background: transparent linear-gradient(90deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 
+}
+
+.divisor-2 {
+    height: 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    margin-top: -1px;
+    margin-left: -20px;
+}
+

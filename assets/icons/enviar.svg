@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="enviar" transform="translate(-666 -7269)">
+    <circle id="Elipse_35" data-name="Elipse 35" cx="16" cy="16" r="16" transform="translate(666 7269)" fill="#8d1082"/>
+    <path id="send-svgrepo-com" d="M8.785,11.422l7.589-7.586M9,11.763,10.721,15.2c.416.832.624,1.247.886,1.359a.774.774,0,0,0,.7-.047c.245-.146.395-.586.7-1.466l3.251-9.521c.262-.767.393-1.15.3-1.4a.774.774,0,0,0-.472-.472c-.254-.09-.637.041-1.4.3L5.159,7.208c-.88.3-1.32.451-1.466.7a.774.774,0,0,0-.047.7c.112.262.527.47,1.359.886l3.441,1.721a1.631,1.631,0,0,1,.265.149.774.774,0,0,1,.141.141A1.63,1.63,0,0,1,9,11.763Z" transform="translate(671.416 7275.375)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
